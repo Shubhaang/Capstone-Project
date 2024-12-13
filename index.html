@@ -9,65 +9,73 @@
     <link href="https://fonts.googleapis.com/css2?family=Montagu+Slab:wght@400;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Spline+Sans+Mono:wght@400;500;600&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Cutive&display=swap" rel="stylesheet">
-
 </head>
 <body>
     <header>
-        <div class="head eco">EcoPortfolio</div>
-        <div class="head">Home</div>
-        <div class="head">Portfolio</div>
-        <div class="head">About</div>
-        <div class="head">Contact</div>
+        <nav class="navbar">
+            <div class="syne-navdiv">
+                <div class="logo">EcoPortfolio</div>
+                <ul class="nav-links">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
     </header>
     <section>
         <h1 class="hero">Connecting with Nature Through Design</h1>
-        <img id="img1" src="img1.png">
+        <img id="img1" src="img1.png" alt="Lush green forest landscape">
         <div class="pro-text">Showcase of Projects</div>
         <div class="Projects">
-
-        <div>
-            <img src="img2.png" id="img2">
-            <p class="proj-name">Forest Retreat</p>
-            <p class="proj-text">A serene forest retreat designed with sustainable materials.</p>
-            <button class="view-button">View Project</button>
-        </div>
-        <div>
-            <img src="img3.png" id="img3">
-            <p class="proj-name">Urban Garden</p>
-            <p class="proj-text">Eco-friendly urban garden that brings nature to the city.</p>
-            <button class="view-button">View Project</button>
-        </div>
-        <div>
-            <img src="img4.png" id="img4">
-            <p class="proj-name">Coastal Home</p>
-            <p class="proj-text">A coastal home crafted with reclaimed wood and natural stone.</p>
-            <button class="view-button">View Project</button>
-        </div>
+            <div>
+                <img src="img2.png" id="img2" alt="Forest Retreat">
+                <p class="proj-name">Forest Retreat</p>
+                <p class="proj-text">A serene forest retreat designed with sustainable materials.</p>
+                <button class="view-button" type="button">View Project</button>
+            </div>
+            <div>
+                <img src="img3.png" id="img3" alt="Urban Garden">
+                <p class="proj-name">Urban Garden</p>
+                <p class="proj-text">Eco-friendly urban garden that brings nature to the city.</p>
+                <button class="view-button" type="button">View Project</button>
+            </div>
+            <div>
+                <img src="img4.png" id="img4" alt="Coastal Home">
+                <p class="proj-name">Coastal Home</p>
+                <p class="proj-text">A coastal home crafted with reclaimed wood and natural stone.</p>
+                <button class="view-button" type="button">View Project</button>
+            </div>
         </div>
         <div class="main-area">
-        <div class="main-text">
-            I am an eco-conscious designer dedicated to creating spaces that harmonize with nature. My work emphasizes sustainability, natural materials, and organic aesthetics.
-        </div>
-        <div class="contact">
-            <div class="cont">Contact Me</div>
-            <div class="mess">Get in touch to discuss your next eco-friendly project.</div>
-        </div>
+            <div class="main-text">
+                I am an eco-conscious designer dedicated to creating spaces that harmonize with nature. My work emphasizes sustainability, natural materials, and organic aesthetics.
+            </div>
+            <div class="contact">
+                <div class="cont">Contact Me</div>
+                <div class="mess">Get in touch to discuss your next eco-friendly project.</div>
+            </div>
         </div>
         <div class="end">
-            <label for="email">Follow me on social media</label><br>
-            <input type="email" id="email" placeholder="Your email">
-            <input type="submit" value="Subscribe" id="subs">
+            <form>
+                <label for="email">Follow me on social media</label><br>
+                <input type="email" id="email" placeholder="Your email">
+                <input type="submit" value="Subscribe" id="subs">
+            </form>
             <div>
-                <img id="fb" src="fb.png">
-                <img id="insta" src="insta.png">
-                <img id="X" src="X.png">
-
+                <a href="#" target="_blank"><img id="fb" src="fb.png" alt="Facebook"></a>
+                <a href="#" target="_blank"><img id="insta" src="insta.png" alt="Instagram"></a>
+                <a href="#" target="_blank"><img id="X" src="X.png" alt="Twitter"></a>
             </div>
         </div>
         <footer>
-            2023 EcoPortfolio
-            <button id="butt">Contact</button>
+            <p>2023 EcoPortfolio</p>
+            <button id="butt" type="button">Contact</button>
         </footer>
     </section>
 </body>
 </html>
+
+
+

@@ -1,177 +1,253 @@
-body{
+body {
     background-color: #FFFCA8;
+    margin: 0;
+    font-family: 'Montagu Slab', serif;
 }
-header{
-    display: flex;
-    height: 25px;
-    justify-content: space-evenly;
-    padding-top: 16px;
-    padding-bottom: 16px;
-    text-align: right;
+
+.navbar {
+    padding: 16px 0;
+    margin: 0 48px;
     border-bottom: 1px solid black;
 }
-.head{
-    font-weight: 600;
-    font-size:28px;
-    line-height:32px;
-    align-items: center;
-    justify-content: center;
-    margin-right:40px;
 
+.syne-navdiv {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
-.eco{
-    font-family: 'Sansita Swashed', sans-serif;
+
+.logo {
+    font-family: "Sansita Swashed", serif;
+    text-decoration: none;
     font-size: 42px;
-    font-weight: 700;
-    line-height: 42px;
-    justify-content: flex-start;
-    margin-left:50px;
+    font-weight: 800;
 }
-.hero{
+
+.nav-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.nav-links li {
+    list-style-type: none;
+}
+
+.nav-links a {
+    font-family: 'Montagu Slab', serif;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 20px;
+    color: black;
+}
+
+.hero {
     font-family: 'Montagu Slab', serif;
     text-align: center;
     font-weight: 700;
-    font-size: 90px;
-    line-height: 120px;
-}
-#img1{
-    border-radius: 28px;
-    display: flex;
-    justify-content: center;
-    width: 95vw;
-    align-content: center;
-    margin:0 auto;
-
-}
-.Projects{
+    font-size: 70px;
+    line-height: 80px;
     padding:48px;
-    display: flex;
-    border-bottom:1px solid black;
-
 }
-.pro-text{
-    padding:40px 48px;
+
+#img1 {
+    border-radius: 28px;
     display: block;
-    font-family: 'Montagu Slab', serif;
+    width: 95%;
+    margin: 0 auto;
+}
+
+.Projects {
+    padding: 48px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 24px;
+    border-bottom: 1px solid black;
+}
+
+.pro-text {
+    padding: 40px 48px;
     font-weight: 700;
     font-size: 34px;
     line-height: 40px;
+    text-align: left;
 }
-#img2,#img3,#img4{
-    padding: 0px 12px;
-    width:266px;
-    height:200px;
+
+#img2, #img3, #img4 {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
 }
-.proj-name{
+
+.proj-name {
     text-align: center;
-    font-family: 'Montagu Slab', serif;
-    font-weight: 700;    
+    font-weight: 700;
 }
-.proj-text{
+
+.proj-text {
     text-align: center;
-    font-family: 'Montagu Slab',serif;
 }
-.view-button{
+
+.view-button {
     font-family: 'Spline Sans Mono', monospace;
     text-align: center;
-    margin-left:100px;
+    margin: 16px auto;
+    display: block;
     background-color: #026600;
-    color:white;
+    color: white;
     line-height: 20px;
-    font-size: 10px;
+    font-size: 14px;
     font-weight: 500;
     border-radius: 8px;
+    padding: 8px 12px;
+    cursor: pointer;
+    border: none;
 }
-.main-area{
-    padding:90px 45px;
+
+.view-button:hover {
+    background-color: #004d00;
+}
+
+.main-area {
+    padding: 96px 24px;
     border-bottom: 1px solid black;
 }
-.main-text{
-    text-align: left;
-    font-family: 'Montagu Slab', serif;
+
+.main-text {
     font-weight: 600;
-    font-size: 40px;
+    font-size: 48px;
     line-height: 52px;
-    width:500px;
-    padding-bottom:40px;
+    max-width: 600px;
+    margin-left: 10px;
+    text-align: left;
 }
-.contact{
-    display: inline-flex;
-    align-content:center;
-    justify-content: center;
+
+.contact {
+    padding:96px;
+    display: flex;
 }
 .cont{
-    font-family: 'Montagu Slab', serif;
-    font-weight:700;
-    font-size:48px;
-    line-height: 52px;
-    padding:48px 0px;
+
     text-align: left;
-    align-self: left;
-    width:300px;
+    padding-top: 30px;
+    font-weight: 700;
+    font-size: 40px;
 }
 .mess{
-    font-family: 'Cutive', serif;
+    text-align: left;
+    padding-top:48px;
     font-weight: 400;
-    font-size: 20px;
+    font-size: 24px;
+    margin-left:280px;
     line-height: 32px;
-    padding:48px;
-    width:600px;
 }
-.end{
-    padding:96px 48px;
+
+.end {
+    padding: 96px 24px;
     text-align: center;
 }
-label{
+
+label {
     font-size: 34px;
     font-weight: 700;
-    line-height: 40px;
-    text-align: center;
-    font-family: 'Montagu Slab',serif;
 }
-#email{
-    margin-top:48px;
-    width:400px;
+
+#email {
+    margin-top: 44px;
+    width: 100%;
+    max-width: 400px;
     height: 32px;
     background-color: transparent;
-    font-family: 'Cutive',serif;
+    font-family: 'Cutive', serif;
     font-size: 15px;
-    font-weight: 400;
     line-height: 20px;
-    padding:8px 12px;
+    padding: 8px 12px;
     border-radius: 8px;
+    border: 1px solid black;
 }
-#subs{
-    margin-top:48px;
+
+#subs {
     height: 50px;
     background-color: #026600;
     font-family: 'Spline Sans Mono', monospace;
     font-size: 15px;
     font-weight: 500;
-    line-height: 20px;
-    padding:8px 12px;
+    padding: 8px 12px;
     border-radius: 8px;
-    color:white;
+    color: white;
+    cursor: pointer;
+    border: none;
+    margin-left: 8px;
 }
-#fb,#insta,#X{
-    width:40px;
-    height:40px;
-    padding:40px 32px;
+
+#subs:hover {
+    background-color: #004d00;
 }
-footer{
-    font-family: 'Montagu Slab',serif;
+
+#fb, #insta, #X {
+    width: 40px;
+    height: 40px;
+    margin: 0 16px;
+    cursor: pointer;
+}
+
+footer {
+    display: flex;
     font-weight: 600;
-    font-size: 28px;
-    line-height: 32px;
-    padding:10px;
-    width:6000px;
+    font-size: 20px;
+    line-height: 28px;
+    padding: 10px;
+    text-align: left;
+
+
 }
-#butt{
+
+#butt {
     background-color: transparent;
     font-family: 'Spline Sans Mono', monospace;
-    font-weight: 500;    
+    font-weight: 500;
     border-radius: 8px;
-    font-size: 20px;
-    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    border: 1px solid black;
+    height:36px;
+    line-height: 28px;
 
+}
+
+#butt:hover {
+    background-color: #f2f2f2;
+}
+
+@media (max-width: 768px) {
+    .hero {
+        font-size: 40px;
+        line-height: 60px;
+    }
+
+    .Projects {
+        padding: 24px;
+        grid-template-columns: 1fr;
+    }
+
+    .main-area {
+        padding: 48px 24px;
+    }
+
+    .main-text {
+        font-size: 24px;
+        line-height: 36px;
+    }
+
+    #email {
+        width: 100%;
+    }
+
+    .navbar {
+        margin: 0 24px;
+    }
+
+    .nav-links a {
+        font-size: 18px;
+    }
 }
