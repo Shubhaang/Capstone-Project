@@ -116,29 +116,24 @@ body {
 .main-text {
     font-weight: 600;
     font-size: 48px;
-    line-height: 52px;
     max-width: 600px;
-    margin-left: 10px;
     text-align: left;
 }
 
 .contact {
-    padding:96px;
+    padding:96px 0px;
     display: flex;
+    justify-content: space-between;
 }
 .cont{
-
     text-align: left;
-    padding-top: 30px;
     font-weight: 700;
     font-size: 40px;
 }
 .mess{
     text-align: left;
-    padding-top:48px;
     font-weight: 400;
     font-size: 24px;
-    margin-left:280px;
     line-height: 32px;
 }
 
@@ -194,15 +189,15 @@ label {
 
 footer {
     display: flex;
-    font-weight: 600;
-    font-size: 20px;
     line-height: 28px;
     padding: 10px;
-    text-align: left;
-
-
+    justify-content: space-between;
 }
-
+footer p{
+    text-align: left;
+    font-weight: 600;
+    font-size: 20px;
+}
 #butt {
     background-color: transparent;
     font-family: 'Spline Sans Mono', monospace;
