@@ -5,12 +5,12 @@ body {
 }
 
 .navbar {
-    padding: 16px 0;
-    margin: 0 48px;
-    border-bottom: 1px solid black;
+    padding: 1.11vw 0; 
+    margin: 0 3.33vw;  
+    border-bottom: 0.07vw solid black;  
 }
 
-.syne-navdiv {
+.syne-navdiv{
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -19,14 +19,14 @@ body {
 .logo {
     font-family: "Sansita Swashed", serif;
     text-decoration: none;
-    font-size: 42px;
+    font-size: 2.92vw;  
     font-weight: 800;
 }
 
 .nav-links {
     display: flex;
     flex-wrap: wrap;
-    gap: 15px;
+    gap: 1.04vw; 
 }
 
 .nav-links li {
@@ -37,7 +37,7 @@ body {
     font-family: 'Montagu Slab', serif;
     text-decoration: none;
     font-weight: 700;
-    font-size: 20px;
+    font-size: 1.39vw;  
     color: black;
 }
 
@@ -45,31 +45,34 @@ body {
     font-family: 'Montagu Slab', serif;
     text-align: center;
     font-weight: 700;
-    font-size: 70px;
-    line-height: 80px;
-    padding:48px;
+    font-size: 4.86vw;  
+    line-height: 5.56vw; 
+    padding: 3.33vw;  
 }
 
 #img1 {
-    border-radius: 28px;
+    border-radius: 1.94vw;  
     display: block;
     width: 95%;
     margin: 0 auto;
+    object-fit: cover;
 }
 
-.Projects {
-    padding: 48px;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-    gap: 24px;
-    border-bottom: 1px solid black;
+.Projects{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-self: center;
+    gap: 3vw;
 }
-
+.Projects div{
+    width: 30%;
+}
 .pro-text {
-    padding: 40px 48px;
+    padding: 2.78vw 3.33vw;  
     font-weight: 700;
-    font-size: 34px;
-    line-height: 40px;
+    font-size: 2.36vw;  
+    line-height: 2.78vw;  
     text-align: left;
 }
 
@@ -91,15 +94,15 @@ body {
 .view-button {
     font-family: 'Spline Sans Mono', monospace;
     text-align: center;
-    margin: 16px auto;
+    margin: 1.11vw auto;  
     display: block;
     background-color: #026600;
     color: white;
-    line-height: 20px;
-    font-size: 14px;
+    line-height: 1.39vw;  
+    font-size: 0.97vw;  
     font-weight: 500;
-    border-radius: 8px;
-    padding: 8px 12px;
+    border-radius: 0.56vw;  
+    padding: 0.56vw 0.83vw; 
     cursor: pointer;
     border: none;
 }
@@ -109,141 +112,260 @@ body {
 }
 
 .main-area {
-    padding: 96px 24px;
-    border-bottom: 1px solid black;
+    padding: 6.67vw 1.67vw;  
+    border-bottom: 0.07vw solid black;  
 }
 
 .main-text {
+    padding-left: 2vw;
     font-weight: 600;
-    font-size: 48px;
-    max-width: 600px;
+    font-size: 2.33vw;  
+    max-width: 41.67vw;  
     text-align: left;
 }
 
 .contact {
-    padding:96px 0px;
+    padding: 6.67vw 0;  
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
 }
-.cont{
+
+.cont {
     text-align: left;
     font-weight: 700;
-    font-size: 40px;
+    font-size: 2.78vw;  
 }
-.mess{
+
+.mess {
     text-align: left;
     font-weight: 400;
-    font-size: 24px;
-    line-height: 32px;
+    font-size: 1.67vw;  
+    line-height: 2.22vw;  
 }
 
 .end {
-    padding: 96px 24px;
+    padding: 6.67vw 1.67vw;  
     text-align: center;
 }
 
 label {
-    font-size: 34px;
+    font-size: 2.36vw; 
     font-weight: 700;
 }
 
 #email {
-    margin-top: 44px;
+    margin-top: 3.06vw; 
     width: 100%;
-    max-width: 400px;
-    height: 32px;
+    max-width: 27.78vw;  
+    height: 2.22vw;  
     background-color: transparent;
     font-family: 'Cutive', serif;
-    font-size: 15px;
-    line-height: 20px;
-    padding: 8px 12px;
-    border-radius: 8px;
-    border: 1px solid black;
+    font-size: 1.04vw;  
+    line-height: 1.39vw;  
+    padding: 0.56vw 0.83vw;  
+    border-radius: 0.56vw;  
+    border: 0.07vw solid black;  
 }
 
 #subs {
-    height: 50px;
+    height: 3.47vw;  
     background-color: #026600;
     font-family: 'Spline Sans Mono', monospace;
-    font-size: 15px;
+    font-size: 1.04vw;  
     font-weight: 500;
-    padding: 8px 12px;
-    border-radius: 8px;
+    padding: 0.56vw 0.83vw;  
+    border-radius: 0.56vw;  
     color: white;
     cursor: pointer;
     border: none;
-    margin-left: 8px;
+    margin-left: 0.56vw;  
 }
 
 #subs:hover {
     background-color: #004d00;
 }
 
-#fb, #insta, #X {
-    padding-top:40px;
-    width: 40px;
-    height: 40px;
-    margin: 0 16px;
+#fb,#insta,#X{
+    padding-top: 2.78vw;  
+    width: 2.78vw; 
+    height: 2.78vw; 
+    margin: 0 1.11vw; 
     cursor: pointer;
 }
 
 footer {
     display: flex;
-    line-height: 28px;
-    padding: 10px;
+    line-height: 1.94vw; 
+    padding: 0.69vw; 
     justify-content: space-between;
 }
-footer p{
+
+footer p {
     text-align: left;
     font-weight: 600;
-    font-size: 20px;
+    font-size: 1.39vw; 
 }
+
 #butt {
     background-color: transparent;
     font-family: 'Spline Sans Mono', monospace;
     font-weight: 500;
-    border-radius: 8px;
-    font-size: 16px;
+    border-radius: 0.56vw; 
+    font-size: 1.11vw; 
     cursor: pointer;
-    border: 1px solid black;
-    height:36px;
-    line-height: 28px;
-
+    border: 0.07vw solid black; 
+    height: 2.5vw; 
+    line-height: 1.94vw; 
 }
 
 #butt:hover {
     background-color: #f2f2f2;
 }
 
-@media (max-width: 768px) {
-    .hero {
-        font-size: 40px;
-        line-height: 60px;
-    }
 
-    .Projects {
-        padding: 24px;
-        grid-template-columns: 1fr;
-    }
 
+@media (max-width: 465px) {
+    .navbar {
+        padding: 0.1vw 2vw; 
+        margin: 0 3.33vw; 
+        border-bottom: 0.07vw solid black; 
+    }
+    
+    
+    .logo { 
+        font-size: 3.92vw;  
+    }
+    .nav-links li a{
+        font-size: 2.5vw;
+    }
+    
+    .hero {  
+        font-size: 5.86vw;  
+        line-height: 5.56vw; 
+        padding: 3.33vw;  
+    }
+    
+    #img1 {
+        border-radius: 1.94vw; 
+        display: block;
+        width: 95%;
+        margin: 0 auto;
+        height: 28vh;
+    }
+    .pro-text{
+        font-size: 5vw;
+        margin-top: 3vw;
+        margin-bottom: 2vw;
+    }
+    .Projects div{
+        width: 95%;
+    }
+    .view-button { 
+        line-height: 1.39vw;
+        font-size: 2.97vw;  
+        font-weight: 500; 
+        padding: 2.56vw 3.83vw; 
+        border-radius: 1.5vw; 
+    }
     .main-area {
-        padding: 48px 24px;
+        height: auto;
+        width: 100%;
+        padding: 8.67vw 1.67vw; 
     }
-
-    .main-text {
-        font-size: 24px;
-        line-height: 36px;
-    }
-
-    #email {
+    .main-area h3{
+        font-size: 3vw;
+        line-height: 3vw;
+        padding-left: 2vw;
         width: 100%;
     }
-
-    .navbar {
-        margin: 0 24px;
+    .contact {
+        padding: 6.67vw 2vw;  
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-left: auto;
+        margin-right: auto;
     }
+    
+    .mess {
+        text-align: left;
+        padding-right: 3vw;
+        font-weight: 400;
+        font-size: 2vw;  
+        line-height: 2.22vw;  
+    }
+    
+    .end {
+        padding: 6.67vw 1.67vw;  
+        text-align: center;
+    } 
+    label {
+        font-size: 3.36vw;  
+        font-weight: 700;
+    }
+    
+    #email { 
+        max-width: 33.78vw;  
+        height: 3vw;   
+        font-size: 2.04vw;  
+        line-height: 1.39vw; 
+        padding: 1.3vw 0.83vw;   
+    }
+    
+    #subs {
+        height: 5.5vw; 
+        background-color: #026600;
+        font-family: 'Spline Sans Mono', monospace;
+        font-size: 2.04vw; 
+        font-weight: 500;
+        padding: 2vw 3.83vw 4vw; 
+        border-radius: 1.2vw; 
+        margin-left: 0.56vw; 
+    }
+    
+    
+    #fb,#insta,#X{
+        margin-top: 3vw;
+        padding-top: 2.78vw; 
+        width: 3.78vw; 
+        height: 3.78vw; 
+    }
+    
+    footer {
+        display: flex;
+        line-height: 1.94vw;
+        padding: 0.69vw 3vw;  
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    footer p {
+        text-align: left;
+        font-weight: 600;
+        font-size: 2.39vw;  
+    }
+    
+    #butt { 
+        border-radius: 0.56vw;  
+        font-size: 2.11vw;  
+        
+        line-height: 1.94vw; 
+        padding: 1vw 2vw 3vw;
+    }
+}
 
-    .nav-links a {
-        font-size: 18px;
+@media (max-width: 768px) {
+    .main-area { 
+        width: 100%;
+        padding: 8.67vw 1.67vw; 
+    }
+    .main-area h3{
+        font-size: 3vw;
+        line-height: 3vw;
+        padding-left: 2vw;
+        width: 100%;
     }
 }
